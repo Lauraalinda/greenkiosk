@@ -1,38 +1,323 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins font&display=swap');
+.Apps{
+    background-color: #fee19d ;
+    padding:100px 100px 100px 100px;
+    justify-content: center;
+}
+.form{
+   width:90%;
+   height:700px;
+   border:2px solid #fff;
+   border-radius: 10px;
+   background-color: #fff;
+   padding: 50px 20px 20px 70px ;
+} 
+/* ...header... */
+.logo{
+    display:inline-flex;
+}
+.logo img{
+  padding-top: 20px;
+}
+.logo p{
+    color: #469da4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+.header{
+  display:flex;
+  padding:5px;
+}
+.signup p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 500px;
+    color:#464646;
+    font-weight:50;
+}
+.signup p span a{
+    color:#469da4;
+    font-weight: bold;
+    padding-top: 3000px;
+    text-decoration: none;
+    list-style: none;
+}
+/* ..inputs... */
+.inputs{
+    display:flex;
+    /* padding-top: 10px; */
+}
+.details h2{
+    font-family: 'Poppins', sans-serif;
+    color:#464646;
+    padding:10px 15px 0px 0px;
+    font-weight: 100;
+    font-size: 35px;
+}
+.details p{
+    padding-top: 10px;
+    font-size: 20px;
+    color:#464646;
+    font-weight: 100;
+}
+input::placeholder{
+   font-size: 17px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#email{
+  background-color: #fff;
+  border:2px solid #D3D3D3;
+  border-radius: 5px;
+  width:350px;
+  height:50px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+.image img{
+    margin: 100px 0px 20px 100px; 
+    width:470px;
+    height:450px;
+}
+.password{
+    display:flex;
+    padding-top: 20px;
+}
+.p a{
+  font-size: 16px;
+  text-decoration: none;
+  color:#857b7b;
+  padding-left: 85px;
+  /* margin-bottom: -3000px; */
+}
+.checkbx {
+   color:#857b7b;
+}  
+/* ..button...  */
+.button{
+    background-color: #469da4;
+    width:375px;
+    border:none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height:50px;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+.btn{
+    background-color:#fee19d ;
+    width:375px;
+    border:none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height:50px;
+    color:#000;
+    font-size: 15px;
+    font-weight: 900;
+}
+.button:hover{
+    background-color:#fee19d ;
+    width:375px;
+    border:none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height:50px;
+    color:#000;
+    font-size: 15px;
+    font-weight: 900;
+}
+#btn a:hover{
+    border:#469da4;
+    color:#469da4;
+}
+/* ..or... */
+.lines{
+    display:flex;
+    font-size: 2px;
+}
+.lines p{
+    font-size: 17px;
+    color:#857b7b;
+    margin-top:-10px;
+    padding-left: 10px;
+    
+}
+.line1{
+    border-top:1px solid;
+    margin-top: 30px;
+    width:165px;
+    color:#BFB2B2;
+}
+.line2{
+    border-top:1px solid;
+    margin-top: 30px;
+    margin-left: 10px;
+    width:165px;
+    color:#BFB2B2;
+}
+.social{
+    display:flex;
+    justify-content: center;
+}
+#i {
+    padding:10px;
+    color:#BFB2B2;
+    border:1px solid #BFB2B2;
+    border-radius: 200px;
+    margin:10px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
